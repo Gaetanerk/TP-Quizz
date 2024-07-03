@@ -713,6 +713,2211 @@
                     "correct": false
                 }
             ]
+        },
+        {
+            "question": "Quelle est la capitale de la France ?",
+            "answers": [
+                {
+                    "answer": "Lyon",
+                    "correct": false
+                },
+                {
+                    "answer": "Paris",
+                    "correct": true
+                },
+                {
+                    "answer": "Marseille",
+                    "correct": false
+                },
+                {
+                    "answer": "Nice",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est le plus grand océan du monde par sa superficie ?",
+            "answers": [
+                {
+                    "answer": "Océan Atlantique",
+                    "correct": false
+                },
+                {
+                    "answer": "Océan Pacifique",
+                    "correct": true
+                },
+                {
+                    "answer": "Océan Indien",
+                    "correct": false
+                },
+                {
+                    "answer": "Océan Arctique",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est le numéro atomique du carbone ?",
+            "answers": [
+                {
+                    "answer": "5",
+                    "correct": false
+                },
+                {
+                    "answer": "6",
+                    "correct": true
+                },
+                {
+                    "answer": "7",
+                    "correct": false
+                },
+                {
+                    "answer": "8",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est le nom de l'inventeur du World Wide Web (WWW) ?",
+            "answers": [
+                {
+                    "answer": "Tim Berners-Lee",
+                    "correct": true
+                },
+                {
+                    "answer": "Bill Gates",
+                    "correct": false
+                },
+                {
+                    "answer": "Steve Jobs",
+                    "correct": false
+                },
+                {
+                    "answer": "Larry Page",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est le plus grand lac d'Afrique ?",
+            "answers": [
+                {
+                    "answer": "Lac Victoria",
+                    "correct": true
+                },
+                {
+                    "answer": "Lac Tanganyika",
+                    "correct": false
+                },
+                {
+                    "answer": "Lac Malawi",
+                    "correct": false
+                },
+                {
+                    "answer": "Lac Turkana",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est l'auteur de la pièce 'Hamlet' ?",
+            "answers": [
+                {
+                    "answer": "William Shakespeare",
+                    "correct": true
+                },
+                {
+                    "answer": "Christopher Marlowe",
+                    "correct": false
+                },
+                {
+                    "answer": "John Milton",
+                    "correct": false
+                },
+                {
+                    "answer": "Ben Jonson",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est l'élément chimique le plus abondant dans la croûte terrestre ?",
+            "answers": [
+                {
+                    "answer": "Oxygène",
+                    "correct": true
+                },
+                {
+                    "answer": "Silicium",
+                    "correct": false
+                },
+                {
+                    "answer": "Fer",
+                    "correct": false
+                },
+                {
+                    "answer": "Aluminium",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est le plus grand désert chaud du monde ?",
+            "answers": [
+                {
+                    "answer": "Le Kalahari",
+                    "correct": false
+                },
+                {
+                    "answer": "Le désert d'Atacama",
+                    "correct": false
+                },
+                {
+                    "answer": "Le désert de Gobi",
+                    "correct": false
+                },
+                {
+                    "answer": "Le Sahara",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Quel est le plus grand lac d'eau douce d'Amérique du Nord ?",
+            "answers": [
+                {
+                    "answer": "Lac Supérieur",
+                    "correct": true
+                },
+                {
+                    "answer": "Lac Michigan",
+                    "correct": false
+                },
+                {
+                    "answer": "Lac Huron",
+                    "correct": false
+                },
+                {
+                    "answer": "Lac Ontario",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Qui a écrit 'Le Vieil Homme et la Mer' ?",
+            "answers": [
+                {
+                    "answer": "Ernest Hemingway",
+                    "correct": true
+                },
+                {
+                    "answer": "F. Scott Fitzgerald",
+                    "correct": false
+                },
+                {
+                    "answer": "John Steinbeck",
+                    "correct": false
+                },
+                {
+                    "answer": "William Faulkner",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est le deuxième métal le plus abondant dans la croûte terrestre après l'aluminium ?",
+            "answers": [
+                {
+                    "answer": "Fer",
+                    "correct": true
+                },
+                {
+                    "answer": "Cuivre",
+                    "correct": false
+                },
+                {
+                    "answer": "Zinc",
+                    "correct": false
+                },
+                {
+                    "answer": "Magnésium",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est le nom de l'inventeur de la machine à écrire ?",
+            "answers": [
+                {
+                    "answer": "Christopher Latham Sholes",
+                    "correct": true
+                },
+                {
+                    "answer": "Thomas Edison",
+                    "correct": false
+                },
+                {
+                    "answer": "Alexander Graham Bell",
+                    "correct": false
+                },
+                {
+                    "answer": "Nikola Tesla",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est le composé chimique responsable de la couleur verte des feuilles ?",
+            "answers": [
+                {
+                    "answer": "La chlorophylle",
+                    "correct": true
+                },
+                {
+                    "answer": "La carotène",
+                    "correct": false
+                },
+                {
+                    "answer": "La mélanine",
+                    "correct": false
+                },
+                {
+                    "answer": "La phycocyanine",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est le nombre d'os dans le corps humain adulte ?",
+            "answers": [
+                {
+                    "answer": "206",
+                    "correct": true
+                },
+                {
+                    "answer": "215",
+                    "correct": false
+                },
+                {
+                    "answer": "198",
+                    "correct": false
+                },
+                {
+                    "answer": "178",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Qui a écrit 'La Guerre et la Paix' ?",
+            "answers": [
+                {
+                    "answer": "Fiodor Dostoïevski",
+                    "correct": false
+                },
+                {
+                    "answer": "Leo Tolstoï",
+                    "correct": true
+                },
+                {
+                    "answer": "Anton Tchekhov",
+                    "correct": false
+                },
+                {
+                    "answer": "Ivan Tourgueniev",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est le plus petit pays du monde par sa superficie ?",
+            "answers": [
+                {
+                    "answer": "Maldives",
+                    "correct": false
+                },
+                {
+                    "answer": "Monaco",
+                    "correct": false
+                },
+                {
+                    "answer": "Saint-Marin",
+                    "correct": false
+                },
+                {
+                    "answer": "Vatican",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Qui a peint 'La Naissance de Vénus' ?",
+            "answers": [
+                {
+                    "answer": "Sandro Botticelli",
+                    "correct": true
+                },
+                {
+                    "answer": "Leonardo da Vinci",
+                    "correct": false
+                },
+                {
+                    "answer": "Michel-Ange",
+                    "correct": false
+                },
+                {
+                    "answer": "Raphaël",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est le plus grand désert de glace du monde ?",
+            "answers": [
+                {
+                    "answer": "L'Antarctique",
+                    "correct": true
+                },
+                {
+                    "answer": "Le Groenland",
+                    "correct": false
+                },
+                {
+                    "answer": "L'Arctique",
+                    "correct": false
+                },
+                {
+                    "answer": "Le désert de Gobi",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Qui a écrit 'Le Tour du monde en quatre-vingts jours' ?",
+            "answers": [
+                {
+                    "answer": "H.G. Wells",
+                    "correct": false
+                },
+                {
+                    "answer": "Jules Verne",
+                    "correct": true
+                },
+                {
+                    "answer": "Arthur Conan Doyle",
+                    "correct": false
+                },
+                {
+                    "answer": "Charles Dickens",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est l'élément chimique le plus lourd qui existe naturellement sur Terre ?",
+            "answers": [
+                {
+                    "answer": "L'uranium",
+                    "correct": false
+                },
+                {
+                    "answer": "Le plomb",
+                    "correct": true
+                },
+                {
+                    "answer": "Le tungstène",
+                    "correct": false
+                },
+                {
+                    "answer": "Le thorium",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quelle est la plus haute montagne d'Amérique du Nord ?",
+            "answers": [
+                {
+                    "answer": "Mont McKinley (Denali)",
+                    "correct": true
+                },
+                {
+                    "answer": "Mont Logan",
+                    "correct": false
+                },
+                {
+                    "answer": "Mont Saint-Elie",
+                    "correct": false
+                },
+                {
+                    "answer": "Mont Foraker",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Qui a peint 'La Jeune Fille à la perle' ?",
+            "answers": [
+                {
+                    "answer": "Johannes Vermeer",
+                    "correct": true
+                },
+                {
+                    "answer": "Rembrandt",
+                    "correct": false
+                },
+                {
+                    "answer": "Vincent van Gogh",
+                    "correct": false
+                },
+                {
+                    "answer": "Pablo Picasso",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est le plus long fleuve d'Amérique du Sud ?",
+            "answers": [
+                {
+                    "answer": "L'Amazone",
+                    "correct": true
+                },
+                {
+                    "answer": "Le Paraná",
+                    "correct": false
+                },
+                {
+                    "answer": "L'Orénoque",
+                    "correct": false
+                },
+                {
+                    "answer": "Le São Francisco",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Qui a inventé le vaccin contre la rage ?",
+            "answers": [
+                {
+                    "answer": "Louis Pasteur",
+                    "correct": true
+                },
+                {
+                    "answer": "Alexander Fleming",
+                    "correct": false
+                },
+                {
+                    "answer": "Robert Koch",
+                    "correct": false
+                },
+                {
+                    "answer": "Edward Jenner",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est le plus grand poisson du monde ?",
+            "answers": [
+                {
+                    "answer": "La baleine bleue",
+                    "correct": true
+                },
+                {
+                    "answer": "Le requin-baleine",
+                    "correct": false
+                },
+                {
+                    "answer": "Le requin pèlerin",
+                    "correct": false
+                },
+                {
+                    "answer": "Le mérou géant",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Qui a découvert le radium ?",
+            "answers": [
+                {
+                    "answer": "Marie Curie",
+                    "correct": true
+                },
+                {
+                    "answer": "Pierre Curie",
+                    "correct": false
+                },
+                {
+                    "answer": "Antoine Lavoisier",
+                    "correct": false
+                },
+                {
+                    "answer": "Dmitri Mendeleïev",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est le plus grand mammifère terrestre ?",
+            "answers": [
+                {
+                    "answer": "L'éléphant d'Afrique",
+                    "correct": true
+                },
+                {
+                    "answer": "Le rhinocéros",
+                    "correct": false
+                },
+                {
+                    "answer": "L'hippopotame",
+                    "correct": false
+                },
+                {
+                    "answer": "Le girafe",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est le nombre de continents sur Terre ?",
+            "answers": [
+                {
+                    "answer": "4",
+                    "correct": false
+                },
+                {
+                    "answer": "5",
+                    "correct": false
+                },
+                {
+                    "answer": "6",
+                    "correct": false
+                },
+                {
+                    "answer": "7",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Qui a peint 'La Nuit étoilée' ?",
+            "answers": [
+                {
+                    "answer": "Pablo Picasso",
+                    "correct": false
+                },
+                {
+                    "answer": "Vincent van Gogh",
+                    "correct": true
+                },
+                {
+                    "answer": "Claude Monet",
+                    "correct": false
+                },
+                {
+                    "answer": "Paul Cézanne",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est le plus grand animal marin ?",
+            "answers": [
+                {
+                    "answer": "La baleine bleue",
+                    "correct": true
+                },
+                {
+                    "answer": "Le calmar géant",
+                    "correct": false
+                },
+                {
+                    "answer": "Le requin-baleine",
+                    "correct": false
+                },
+                {
+                    "answer": "L'orque",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quelle est la monnaie officielle de la Chine ?",
+            "answers": [
+                {
+                    "answer": "Yuan",
+                    "correct": true
+                },
+                {
+                    "answer": "Dollar chinois",
+                    "correct": false
+                },
+                {
+                    "answer": "Yen",
+                    "correct": false
+                },
+                {
+                    "answer": "Renminbi",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est l'océan le plus profond du monde ?",
+            "answers": [
+                {
+                    "answer": "Océan Atlantique",
+                    "correct": false
+                },
+                {
+                    "answer": "Océan Indien",
+                    "correct": false
+                },
+                {
+                    "answer": "Océan Arctique",
+                    "correct": false
+                },
+                {
+                    "answer": "Océan Pacifique",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Quel est l'âge de la Terre estimé en milliards d'années ?",
+            "answers": [
+                {
+                    "answer": "4,2 milliards",
+                    "correct": false
+                },
+                {
+                    "answer": "3,8 milliards",
+                    "correct": false
+                },
+                {
+                    "answer": "4,5 milliards",
+                    "correct": true
+                },
+                {
+                    "answer": "5,2 milliards",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Qui a écrit 'Les Misérables' ?",
+            "answers": [
+                {
+                    "answer": "Gustave Flaubert",
+                    "correct": false
+                },
+                {
+                    "answer": "Victor Hugo",
+                    "correct": true
+                },
+                {
+                    "answer": "Émile Zola",
+                    "correct": false
+                },
+                {
+                    "answer": "Balzac",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est le nom de la première femme à avoir reçu le prix Nobel ?",
+            "answers": [
+                {
+                    "answer": "Irène Joliot-Curie",
+                    "correct": false
+                },
+                {
+                    "answer": "Marie Curie",
+                    "correct": true
+                },
+                {
+                    "answer": "Rita Levi-Montalcini",
+                    "correct": false
+                },
+                {
+                    "answer": "Dorothy Crowfoot Hodgkin",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est l'élément chimique le plus abondant dans l'univers ?",
+            "answers": [
+                {
+                    "answer": "Hydrogène",
+                    "correct": true
+                },
+                {
+                    "answer": "Hélium",
+                    "correct": false
+                },
+                {
+                    "answer": "Oxygène",
+                    "correct": false
+                },
+                {
+                    "answer": "Carbone",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Qui a écrit 'Le Procès' ?",
+            "answers": [
+                {
+                    "answer": "Franz Kafka",
+                    "correct": true
+                },
+                {
+                    "answer": "Albert Camus",
+                    "correct": false
+                },
+                {
+                    "answer": "Jean-Paul Sartre",
+                    "correct": false
+                },
+                {
+                    "answer": "Gabriel García Márquez",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est le plus grand mammifère terrestre après l'éléphant ?",
+            "answers": [
+                {
+                    "answer": "Le rhinocéros",
+                    "correct": false
+                },
+                {
+                    "answer": "L'hippopotame",
+                    "correct": true
+                },
+                {
+                    "answer": "Le girafe",
+                    "correct": false
+                },
+                {
+                    "answer": "Le taureau",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Qui a écrit 'La Cerisaie' ?",
+            "answers": [
+                {
+                    "answer": "Léon Tolstoï",
+                    "correct": false
+                },
+                {
+                    "answer": "Anton Tchekhov",
+                    "correct": true
+                },
+                {
+                    "answer": "Fiodor Dostoïevski",
+                    "correct": false
+                },
+                {
+                    "answer": "Ivan Tourgueniev",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est le plus grand désert de glace en Antarctique ?",
+            "answers": [
+                {
+                    "answer": "La mer de Ross",
+                    "correct": false
+                },
+                {
+                    "answer": "La mer de Weddell",
+                    "correct": false
+                },
+                {
+                    "answer": "Le Plateau Antarctique",
+                    "correct": false
+                },
+                {
+                    "answer": "La calotte glaciaire Est-Antarctique",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Quel est le composant principal de la plupart des cellules vivantes ?",
+            "answers": [
+                {
+                    "answer": "L'eau",
+                    "correct": true
+                },
+                {
+                    "answer": "Les protéines",
+                    "correct": false
+                },
+                {
+                    "answer": "L'ADN",
+                    "correct": false
+                },
+                {
+                    "answer": "Les lipides",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Qui a peint 'La Liberté guidant le peuple' ?",
+            "answers": [
+                {
+                    "answer": "Eugène Delacroix",
+                    "correct": true
+                },
+                {
+                    "answer": "Jacques-Louis David",
+                    "correct": false
+                },
+                {
+                    "answer": "Paul Delaroche",
+                    "correct": false
+                },
+                {
+                    "answer": "Gustave Courbet",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Qui a écrit 'Madame Bovary' ?",
+            "answers": [
+                {
+                    "answer": "Stendhal",
+                    "correct": false
+                },
+                {
+                    "answer": "Émile Zola",
+                    "correct": false
+                },
+                {
+                    "answer": "Gustave Flaubert",
+                    "correct": true
+                },
+                {
+                    "answer": "Honoré de Balzac",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est l'élément chimique le plus léger ?",
+            "answers": [
+                {
+                    "answer": "L'hydrogène",
+                    "correct": true
+                },
+                {
+                    "answer": "L'hélium",
+                    "correct": false
+                },
+                {
+                    "answer": "Le lithium",
+                    "correct": false
+                },
+                {
+                    "answer": "Le néon",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quelle est la langue la plus parlée dans le monde ?",
+            "answers": [
+                {
+                    "answer": "Espagnol",
+                    "correct": false
+                },
+                {
+                    "answer": "Hindi",
+                    "correct": false
+                },
+                {
+                    "answer": "Anglais",
+                    "correct": false
+                },
+                {
+                    "answer": "Chinois mandarin",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Qui a inventé la dynamite ?",
+            "answers": [
+                {
+                    "answer": "Alfred Nobel",
+                    "correct": true
+                },
+                {
+                    "answer": "Isaac Newton",
+                    "correct": false
+                },
+                {
+                    "answer": "Humphry Davy",
+                    "correct": false
+                },
+                {
+                    "answer": "Thomas Edison",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est le plus grand océan du monde ?",
+            "answers": [
+                {
+                    "answer": "Océan Atlantique",
+                    "correct": false
+                },
+                {
+                    "answer": "Océan Indien",
+                    "correct": false
+                },
+                {
+                    "answer": "Océan Arctique",
+                    "correct": false
+                },
+                {
+                    "answer": "Océan Pacifique",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Qui a écrit 'L'Odyssée' ?",
+            "answers": [
+                {
+                    "answer": "Hésiode",
+                    "correct": false
+                },
+                {
+                    "answer": "Homère",
+                    "correct": true
+                },
+                {
+                    "answer": "Aristophane",
+                    "correct": false
+                },
+                {
+                    "answer": "Euripide",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est le plus grand océan du monde en superficie ?",
+            "answers": [
+                {
+                    "answer": "Océan Atlantique",
+                    "correct": false
+                },
+                {
+                    "answer": "Océan Indien",
+                    "correct": false
+                },
+                {
+                    "answer": "Océan Arctique",
+                    "correct": false
+                },
+                {
+                    "answer": "Océan Pacifique",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Quel est le seul mammifère capable de voler ?",
+            "answers": [
+                {
+                    "answer": "Le chauve-souris",
+                    "correct": true
+                },
+                {
+                    "answer": "L'écureuil volant",
+                    "correct": false
+                },
+                {
+                    "answer": "Le pigeon",
+                    "correct": false
+                },
+                {
+                    "answer": "Le colibri",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Qui a écrit '1984' ?",
+            "answers": [
+                {
+                    "answer": "Aldous Huxley",
+                    "correct": false
+                },
+                {
+                    "answer": "George Orwell",
+                    "correct": true
+                },
+                {
+                    "answer": "Arthur C. Clarke",
+                    "correct": false
+                },
+                {
+                    "answer": "Philip K. Dick",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quelle est la plus grande île du monde ?",
+            "answers": [
+                {
+                    "answer": "L'Australie",
+                    "correct": false
+                },
+                {
+                    "answer": "Le Groenland",
+                    "correct": true
+                },
+                {
+                    "answer": "La Nouvelle-Guinée",
+                    "correct": false
+                },
+                {
+                    "answer": "Bornéo",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Qui a peint 'Les époux Arnolfini' ?",
+            "answers": [
+                {
+                    "answer": "Jan van Eyck",
+                    "correct": true
+                },
+                {
+                    "answer": "Hans Holbein",
+                    "correct": false
+                },
+                {
+                    "answer": "Sandro Botticelli",
+                    "correct": false
+                },
+                {
+                    "answer": "Leonardo da Vinci",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est le plus grand état des États-Unis d'Amérique par superficie ?",
+            "answers": [
+                {
+                    "answer": "Alaska",
+                    "correct": true
+                },
+                {
+                    "answer": "Texas",
+                    "correct": false
+                },
+                {
+                    "answer": "Californie",
+                    "correct": false
+                },
+                {
+                    "answer": "Montana",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Qui a peint 'Le Cri' ?",
+            "answers": [
+                {
+                    "answer": "Édvard Munch",
+                    "correct": true
+                },
+                {
+                    "answer": "Vincent van Gogh",
+                    "correct": false
+                },
+                {
+                    "answer": "Pablo Picasso",
+                    "correct": false
+                },
+                {
+                    "answer": "Paul Cézanne",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est le plus long fleuve du monde ?",
+            "answers": [
+                {
+                    "answer": "L'Amazone",
+                    "correct": false
+                },
+                {
+                    "answer": "Le Nil",
+                    "correct": true
+                },
+                {
+                    "answer": "Le Yangzi Jiang (Chang Jiang)",
+                    "correct": false
+                },
+                {
+                    "answer": "Le Mississippi",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est l'élément chimique le plus abondant dans le soleil ?",
+            "answers": [
+                {
+                    "answer": "Hydrogène",
+                    "correct": true
+                },
+                {
+                    "answer": "Hélium",
+                    "correct": false
+                },
+                {
+                    "answer": "Oxygène",
+                    "correct": false
+                },
+                {
+                    "answer": "Fer",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Qui a écrit 'Le Maître et Marguerite' ?",
+            "answers": [
+                {
+                    "answer": "Ivan Tourgueniev",
+                    "correct": false
+                },
+                {
+                    "answer": "Alexandre Soljenitsyne",
+                    "correct": false
+                },
+                {
+                    "answer": "Fiodor Dostoïevski",
+                    "correct": false
+                },
+                {
+                    "answer": "Mikhaïl Boulgakov",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Quelle est la plus haute montagne du monde ?",
+            "answers": [
+                {
+                    "answer": "Mont McKinley (Denali)",
+                    "correct": false
+                },
+                {
+                    "answer": "Mont Logan",
+                    "correct": false
+                },
+                {
+                    "answer": "Mont Everest",
+                    "correct": true
+                },
+                {
+                    "answer": "Mont Kilimandjaro",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Qui a découvert la pénicilline ?",
+            "answers": [
+                {
+                    "answer": "Joseph Lister",
+                    "correct": false
+                },
+                {
+                    "answer": "Alexander Fleming",
+                    "correct": true
+                },
+                {
+                    "answer": "Louis Pasteur",
+                    "correct": false
+                },
+                {
+                    "answer": "Robert Koch",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est l'océan le plus chaud du monde ?",
+            "answers": [
+                {
+                    "answer": "Océan Pacifique",
+                    "correct": false
+                },
+                {
+                    "answer": "Océan Austral",
+                    "correct": false
+                },
+                {
+                    "answer": "Océan Atlantique",
+                    "correct": false
+                },
+                {
+                    "answer": "Océan Indien",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Qui a peint 'Le Déjeuner sur l'herbe' ?",
+            "answers": [
+                {
+                    "answer": "Paul Cézanne",
+                    "correct": false
+                },
+                {
+                    "answer": "Édouard Manet",
+                    "correct": true
+                },
+                {
+                    "answer": "Gustave Courbet",
+                    "correct": false
+                },
+                {
+                    "answer": "Henri Matisse",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Qui a écrit 'La peste' ?",
+            "answers": [
+                {
+                    "answer": "Jean-Paul Sartre",
+                    "correct": false
+                },
+                {
+                    "answer": "Gabriel García Márquez",
+                    "correct": false
+                },
+                {
+                    "answer": "Albert Camus",
+                    "correct": true
+                },
+                {
+                    "answer": "Franz Kafka",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est le plus petit pays du monde par superficie ?",
+            "answers": [
+                {
+                    "answer": "Tuvalu",
+                    "correct": false
+                },
+                {
+                    "answer": "Saint-Marin",
+                    "correct": false
+                },
+                {
+                    "answer": "Monaco",
+                    "correct": false
+                },
+                {
+                    "answer": "Cité du Vatican",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Quel est le plus grand lac d'eau douce du monde ?",
+            "answers": [
+                {
+                    "answer": "Lac Michigan",
+                    "correct": false
+                },
+                {
+                    "answer": "Lac Supérieur",
+                    "correct": false
+                },
+                {
+                    "answer": "Lac Victoria",
+                    "correct": false
+                },
+                {
+                    "answer": "Lac Baïkal",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Qui a écrit 'Le Parfum' ?",
+            "answers": [
+                {
+                    "answer": "Thomas Mann",
+                    "correct": false
+                },
+                {
+                    "answer": "Patrick Süskind",
+                    "correct": true
+                },
+                {
+                    "answer": "Marcel Proust",
+                    "correct": false
+                },
+                {
+                    "answer": "Franz Kafka",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est le plus grand reptile du monde ?",
+            "answers": [
+                {
+                    "answer": "Le crocodile marin",
+                    "correct": true
+                },
+                {
+                    "answer": "Le varan de Komodo",
+                    "correct": false
+                },
+                {
+                    "answer": "Le serpent boa",
+                    "correct": false
+                },
+                {
+                    "answer": "L'iguane vert",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Qui a écrit 'Les Trois Mousquetaires' ?",
+            "answers": [
+                {
+                    "answer": "Victor Hugo",
+                    "correct": false
+                },
+                {
+                    "answer": "Alexandre Dumas",
+                    "correct": true
+                },
+                {
+                    "answer": "Gustave Flaubert",
+                    "correct": false
+                },
+                {
+                    "answer": "Voltaire",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est le nombre de jours dans une année bissextile ?",
+            "answers": [
+                {
+                    "answer": "365",
+                    "correct": false
+                },
+                {
+                    "answer": "366",
+                    "correct": true
+                },
+                {
+                    "answer": "364",
+                    "correct": false
+                },
+                {
+                    "answer": "363",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Qui a peint 'La Danse' ?",
+            "answers": [
+                {
+                    "answer": "Pablo Picasso",
+                    "correct": false
+                },
+                {
+                    "answer": "Henri Matisse",
+                    "correct": true
+                },
+                {
+                    "answer": "Gustave Courbet",
+                    "correct": false
+                },
+                {
+                    "answer": "Eugène Delacroix",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est l'élément chimique principal constituant les diamants ?",
+            "answers": [
+                {
+                    "answer": "Carbone",
+                    "correct": true
+                },
+                {
+                    "answer": "Oxygène",
+                    "correct": false
+                },
+                {
+                    "answer": "Fer",
+                    "correct": false
+                },
+                {
+                    "answer": "Or",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Qui a écrit 'Les Fleurs du mal' ?",
+            "answers": [
+                {
+                    "answer": "André Gide",
+                    "correct": false
+                },
+                {
+                    "answer": "Paul Verlaine",
+                    "correct": false
+                },
+                {
+                    "answer": "Charles Baudelaire",
+                    "correct": true
+                },
+                {
+                    "answer": "Arthur Rimbaud",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est le plus grand poisson cartilagineux ?",
+            "answers": [
+                {
+                    "answer": "Le grand requin blanc",
+                    "correct": false
+                },
+                {
+                    "answer": "Le requin pèlerin",
+                    "correct": false
+                },
+                {
+                    "answer": "Le mérou géant",
+                    "correct": false
+                },
+                {
+                    "answer": "Le requin-baleine",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Qui a peint 'Les Tournesols' ?",
+            "answers": [
+                {
+                    "answer": "Claude Monet",
+                    "correct": false
+                },
+                {
+                    "answer": "Vincent van Gogh",
+                    "correct": true
+                },
+                {
+                    "answer": "Paul Cézanne",
+                    "correct": false
+                },
+                {
+                    "answer": "Pablo Picasso",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quelle est la monnaie du Japon ?",
+            "answers": [
+                {
+                    "answer": "Yuan",
+                    "correct": false
+                },
+                {
+                    "answer": "Dollar japonais",
+                    "correct": true
+                },
+                {
+                    "answer": "Yen",
+                    "correct": false
+                },
+                {
+                    "answer": "Renminbi",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est le plus long fleuve d'Afrique ?",
+            "answers": [
+                {
+                    "answer": "Le Nil",
+                    "correct": true
+                },
+                {
+                    "answer": "Le Congo",
+                    "correct": false
+                },
+                {
+                    "answer": "Le Niger",
+                    "correct": false
+                },
+                {
+                    "answer": "Le Zambèze",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Qui a écrit 'L'Étranger' ?",
+            "answers": [
+                {
+                    "answer": "Jean-Paul Sartre",
+                    "correct": false
+                },
+                {
+                    "answer": "André Gide",
+                    "correct": false
+                },
+                {
+                    "answer": "Albert Camus",
+                    "correct": true
+                },
+                {
+                    "answer": "Franz Kafka",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est le plus grand océan du monde par superficie ?",
+            "answers": [
+                {
+                    "answer": "Océan Atlantique",
+                    "correct": false
+                },
+                {
+                    "answer": "Océan Indien",
+                    "correct": false
+                },
+                {
+                    "answer": "Océan Arctique",
+                    "correct": false
+                },
+                {
+                    "answer": "Océan Pacifique",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Quelle est la plus grande planète du système solaire ?",
+            "answers": [
+                {
+                    "answer": "Jupiter",
+                    "correct": true
+                },
+                {
+                    "answer": "Saturne",
+                    "correct": false
+                },
+                {
+                    "answer": "Neptune",
+                    "correct": false
+                },
+                {
+                    "answer": "Mars",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Qui a peint 'Le Radeau de La Méduse' ?",
+            "answers": [
+                {
+                    "answer": "Eugène Delacroix",
+                    "correct": false
+                },
+                {
+                    "answer": "Géricault",
+                    "correct": true
+                },
+                {
+                    "answer": "Jacques-Louis David",
+                    "correct": false
+                },
+                {
+                    "answer": "Théodore Rousseau",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quelle est la plus grande forêt tropicale du monde ?",
+            "answers": [
+                {
+                    "answer": "Forêt amazonienne",
+                    "correct": true
+                },
+                {
+                    "answer": "Forêt du Congo",
+                    "correct": false
+                },
+                {
+                    "answer": "Forêt malgache",
+                    "correct": false
+                },
+                {
+                    "answer": "Forêt de Bornéo",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Qui a écrit 'La Métamorphose' ?",
+            "answers": [
+                {
+                    "answer": "Franz Kafka",
+                    "correct": true
+                },
+                {
+                    "answer": "Albert Camus",
+                    "correct": false
+                },
+                {
+                    "answer": "Fiodor Dostoïevski",
+                    "correct": false
+                },
+                {
+                    "answer": "Jean-Paul Sartre",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est l'océan le plus profond du monde ?",
+            "answers": [
+                {
+                    "answer": "Océan Pacifique",
+                    "correct": true
+                },
+                {
+                    "answer": "Océan Arctique",
+                    "correct": false
+                },
+                {
+                    "answer": "Océan Atlantique",
+                    "correct": false
+                },
+                {
+                    "answer": "Océan Indien",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Qui a peint 'La Naissance de Vénus' ?",
+            "answers": [
+                {
+                    "answer": "Sandro Botticelli",
+                    "correct": true
+                },
+                {
+                    "answer": "Raphaël",
+                    "correct": false
+                },
+                {
+                    "answer": "Michel-Ange",
+                    "correct": false
+                },
+                {
+                    "answer": "Leonardo da Vinci",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quelle est la monnaie de la Russie ?",
+            "answers": [
+                {
+                    "answer": "Lira",
+                    "correct": false
+                },
+                {
+                    "answer": "Rouble",
+                    "correct": true
+                },
+                {
+                    "answer": "Franc",
+                    "correct": false
+                },
+                {
+                    "answer": "Kuna",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est le plus grand désert du monde ?",
+            "answers": [
+                {
+                    "answer": "Désert du Sahara",
+                    "correct": true
+                },
+                {
+                    "answer": "Désert de Gobi",
+                    "correct": false
+                },
+                {
+                    "answer": "Désert du Kalahari",
+                    "correct": false
+                },
+                {
+                    "answer": "Désert de l'Arabie",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Qui a écrit 'Les Misérables' ?",
+            "answers": [
+                {
+                    "answer": "Alexandre Dumas",
+                    "correct": false
+                },
+                {
+                    "answer": "Gustave Flaubert",
+                    "correct": false
+                },
+                {
+                    "answer": "Victor Hugo",
+                    "correct": true
+                },
+                {
+                    "answer": "Émile Zola",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est le plus grand océan par superficie ?",
+            "answers": [
+                {
+                    "answer": "Océan Atlantique",
+                    "correct": false
+                },
+                {
+                    "answer": "Océan Indien",
+                    "correct": false
+                },
+                {
+                    "answer": "Océan Arctique",
+                    "correct": false
+                },
+                {
+                    "answer": "Océan Pacifique",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Qui a peint 'La Jeune Fille à la perle' ?",
+            "answers": [
+                {
+                    "answer": "Vermeer",
+                    "correct": true
+                },
+                {
+                    "answer": "Rembrandt",
+                    "correct": false
+                },
+                {
+                    "answer": "Van Gogh",
+                    "correct": false
+                },
+                {
+                    "answer": "Michel-Ange",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quelle est la monnaie de la Chine ?",
+            "answers": [
+                {
+                    "answer": "Yuan",
+                    "correct": true
+                },
+                {
+                    "answer": "Yen",
+                    "correct": false
+                },
+                {
+                    "answer": "Dollar chinois",
+                    "correct": false
+                },
+                {
+                    "answer": "Renminbi",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quelle est la plus grande mer du monde ?",
+            "answers": [
+                {
+                    "answer": "Mer Méditerranée",
+                    "correct": false
+                },
+                {
+                    "answer": "Mer Caspienne",
+                    "correct": true
+                },
+                {
+                    "answer": "Mer Noire",
+                    "correct": false
+                },
+                {
+                    "answer": "Mer Rouge",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Qui a écrit 'Le Comte de Monte-Cristo' ?",
+            "answers": [
+                {
+                    "answer": "Alexandre Dumas",
+                    "correct": true
+                },
+                {
+                    "answer": "Victor Hugo",
+                    "correct": false
+                },
+                {
+                    "answer": "Gustave Flaubert",
+                    "correct": false
+                },
+                {
+                    "answer": "Émile Zola",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est l'élément chimique principal des os humains ?",
+            "answers": [
+                {
+                    "answer": "Calcium",
+                    "correct": true
+                },
+                {
+                    "answer": "Fer",
+                    "correct": false
+                },
+                {
+                    "answer": "Magnésium",
+                    "correct": false
+                },
+                {
+                    "answer": "Soufre",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Qui a écrit 'Germinal' ?",
+            "answers": [
+                {
+                    "answer": "Victor Hugo",
+                    "correct": false
+                },
+                {
+                    "answer": "Gustave Flaubert",
+                    "correct": false
+                },
+                {
+                    "answer": "Jules Verne",
+                    "correct": false
+                },
+                {
+                    "answer": "Émile Zola",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Quel est le plus grand arbre du monde en volume ?",
+            "answers": [
+                {
+                    "answer": "Baobab",
+                    "correct": false
+                },
+                {
+                    "answer": "Séquoia géant",
+                    "correct": true
+                },
+                {
+                    "answer": "Cyprès chauve",
+                    "correct": false
+                },
+                {
+                    "answer": "Épicéa",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Qui a peint 'La Persistance de la mémoire' ?",
+            "answers": [
+                {
+                    "answer": "Henri Rousseau",
+                    "correct": false
+                },
+                {
+                    "answer": "Salvador Dalí",
+                    "correct": true
+                },
+                {
+                    "answer": "René Magritte",
+                    "correct": false
+                },
+                {
+                    "answer": "Joan Miró",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est le plus long fleuve d'Europe ?",
+            "answers": [
+                {
+                    "answer": "Le Danube",
+                    "correct": false
+                },
+                {
+                    "answer": "La Volga",
+                    "correct": true
+                },
+                {
+                    "answer": "Le Rhin",
+                    "correct": false
+                },
+                {
+                    "answer": "La Tamise",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Qui a écrit 'Vingt mille lieues sous les mers' ?",
+            "answers": [
+                {
+                    "answer": "Victor Hugo",
+                    "correct": false
+                },
+                {
+                    "answer": "Alexandre Dumas",
+                    "correct": false
+                },
+                {
+                    "answer": "Jules Verne",
+                    "correct": true
+                },
+                {
+                    "answer": "Gustave Flaubert",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est le plus grand fleuve de France ?",
+            "answers": [
+                {
+                    "answer": "La Seine",
+                    "correct": false
+                },
+                {
+                    "answer": "La Loire",
+                    "correct": true
+                },
+                {
+                    "answer": "Le Rhône",
+                    "correct": false
+                },
+                {
+                    "answer": "La Garonne",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Qui a peint 'La Cène' ?",
+            "answers": [
+                {
+                    "answer": "Michel-Ange",
+                    "correct": false
+                },
+                {
+                    "answer": "Leonardo da Vinci",
+                    "correct": true
+                },
+                {
+                    "answer": "Raphaël",
+                    "correct": false
+                },
+                {
+                    "answer": "Titien",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est le plus grand lac d'eau douce d'Europe ?",
+            "answers": [
+                {
+                    "answer": "Lac Ladoga",
+                    "correct": false
+                },
+                {
+                    "answer": "Lac Léman",
+                    "correct": false
+                },
+                {
+                    "answer": "Lac de Constance",
+                    "correct": false
+                },
+                {
+                    "answer": "Lac de Garde",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Qui a écrit 'Les Contemplations' ?",
+            "answers": [
+                {
+                    "answer": "Victor Hugo",
+                    "correct": true
+                },
+                {
+                    "answer": "Charles Baudelaire",
+                    "correct": false
+                },
+                {
+                    "answer": "Paul Verlaine",
+                    "correct": false
+                },
+                {
+                    "answer": "Arthur Rimbaud",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est le plus grand lac d'eau douce d'Afrique ?",
+            "answers": [
+                {
+                    "answer": "Lac Victoria",
+                    "correct": true
+                },
+                {
+                    "answer": "Lac Tanganyika",
+                    "correct": false
+                },
+                {
+                    "answer": "Lac Malawi",
+                    "correct": false
+                },
+                {
+                    "answer": "Lac Tana",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Qui a peint 'La Liberté guidant le peuple' ?",
+            "answers": [
+                {
+                    "answer": "Eugène Delacroix",
+                    "correct": true
+                },
+                {
+                    "answer": "Jacques-Louis David",
+                    "correct": false
+                },
+                {
+                    "answer": "Théodore Géricault",
+                    "correct": false
+                },
+                {
+                    "answer": "Jean-Auguste-Dominique Ingres",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quel est le plus grand mammifère terrestre ?",
+            "answers": [
+                {
+                    "answer": "L'éléphant d'Afrique",
+                    "correct": false
+                },
+                {
+                    "answer": "L'éléphant d'Asie",
+                    "correct": false
+                },
+                {
+                    "answer": "Le rhinocéros blanc",
+                    "correct": false
+                },
+                {
+                    "answer": "Le rhinocéros noir",
+                    "correct": true
+                }
+            ]
         }
     ]
 }

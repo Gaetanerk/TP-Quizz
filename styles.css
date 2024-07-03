@@ -1,15 +1,38 @@
+body {
+    background-image: url('./background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 1px 1px 1px black;
+    color: #4067EC;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+label {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
 #game {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
 }
 
 #quizz {
     text-align: center;
 }
 
+#remaining-questions {
+    font-size: 1.5em;
+}
+
 #remaining-questions, #next-button {
-    margin-top: 20px;
+    margin-top: 30px;
+
 }
 
 #final-score {
@@ -19,9 +42,13 @@
 
 #result {
     margin-top: 20px;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 #replay-button, #quit-button {
-    margin: 20px 10px;
+    margin: 10px;
+}
+
+#btnFinish {
+    margin-top: 30px;
 }

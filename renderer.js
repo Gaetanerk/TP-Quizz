@@ -100,16 +100,20 @@ document.addEventListener('DOMContentLoaded', () => {
     const finalScoreDiv = document.createElement('div')
     finalScoreDiv.className = 'final-score'
     finalScoreDiv.id = 'final-score'
-    finalScoreDiv.textContent = `Quiz terminé! Vous avez obtenu ${score} bonnes réponses sur ${totalQuestions} questions.`
+    finalScoreDiv.textContent = `Quizz terminé! Vous avez obtenu ${score} bonnes réponses.`
     quizContainer.appendChild(finalScoreDiv)
   
+    const btnFinish = document.createElement('div')
+    btnFinish.id = 'btnFinish'
+    quizContainer.appendChild(btnFinish)
+
     const replayButton = document.createElement('button')
     replayButton.textContent = 'Rejouer'
     replayButton.id = 'replay-button'
     replayButton.addEventListener('click', () => {
       resetQuiz()
     })
-    quizContainer.appendChild(replayButton)
+    btnFinish.appendChild(replayButton)
   
     const quitButton = document.createElement('button')
     quitButton.textContent = 'Quitter'
@@ -117,7 +121,7 @@ document.addEventListener('DOMContentLoaded', () => {
     quitButton.addEventListener('click', () => {
       window.electron.quitApp()
     })
-    quizContainer.appendChild(quitButton)
+    btnFinish.appendChild(quitButton)
   }
   
   function resetQuiz() {
