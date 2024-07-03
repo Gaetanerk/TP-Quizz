@@ -1,8 +1,17 @@
 document.addEventListener('DOMContentLoaded', () => {
-    window.electron.onQuestion((question) => {
+    initializeQuiz()
+  })
+  
+  let score = 0
+  let currentQuestionIndex = 0
+  const totalQuestions = 10
+  
+  function initializeQuiz() {
+    window.electron.onNewQuestion((question) => {
       displayQuestion(question)
     })
-  })
+    fetchNewQuestion()
+  }
   
   function displayQuestion(question) {
     const quizContainer = document.getElementById('quizz')
@@ -25,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
       answerLabel.appendChild(document.createTextNode(answer.answer))
       
       answerInput.addEventListener('click', () => {
-        checkAnswer(answer.correct)
+        checkAnswer(answer.correct, question)
       })
       
       questionDiv.appendChild(answerLabel)
@@ -33,23 +42,83 @@ document.addEventListener('DOMContentLoaded', () => {
     })
     
     quizContainer.appendChild(questionDiv)
-  }
-  
-  function checkAnswer(isCorrect) {
-    const resultContainer = document.getElementById('result')
     
-    if (!resultContainer) {
-      const newResultContainer = document.createElement('div')
-      newResultContainer.id = 'result'
-      document.body.appendChild(newResultContainer)
-      showResult(isCorrect, newResultContainer)
-    } else {
-      showResult(isCorrect, resultContainer)
-    }
+    const remainingQuestionsDiv = document.createElement('div')
+    remainingQuestionsDiv.id = 'remaining-questions'
+    remainingQuestionsDiv.textContent = `Questions restantes : ${totalQuestions - currentQuestionIndex}`
+    quizContainer.appendChild(remainingQuestionsDiv)
   }
   
-  function showResult(isCorrect, container) {
-    container.textContent = String(isCorrect) === 'true' ? 'Bonne réponse!' : 'Mauvaise réponse. Réessayez!'
-    container.style.color = String(isCorrect) === 'true' ? 'green' : 'red'
+  function checkAnswer(isCorrect, question) {
+    const quizContainer = document.getElementById('quizz')
+    const resultContainer = document.getElementById('result') || document.createElement('div')
+    resultContainer.id = 'result'
+    
+    if (String(isCorrect) === 'true') {
+      score++
+      resultContainer.textContent = 'Bonne réponse!'
+      resultContainer.style.color = 'green'
+    } else {
+      resultContainer.textContent = `Mauvaise réponse. La bonne réponse était : ${question.answers.find(ans => ans.correct).answer}`
+      resultContainer.style.color = 'red'
+    }
+    
+    quizContainer.appendChild(resultContainer)
+    disableRadioButtons()
+    displayNextButton()
+  }
+  
+  function disableRadioButtons() {
+    const radioButtons = document.querySelectorAll('input[name="question"]')
+    radioButtons.forEach(button => button.disabled = true)
+  }
+  
+  function displayNextButton() {
+    const quizContainer = document.getElementById('quizz')
+    const nextButton = document.createElement('button')
+    nextButton.textContent = 'Question suivante'
+    nextButton.addEventListener('click', () => {
+      if (currentQuestionIndex < totalQuestions - 1) {
+        currentQuestionIndex++
+        fetchNewQuestion()
+      } else {
+        displayFinalScore()
+      }
+    })
+    quizContainer.appendChild(nextButton)
+  }
+  
+  function fetchNewQuestion() {
+    window.electron.requestNewQuestion()
+  }
+  
+  function displayFinalScore() {
+    const quizContainer = document.getElementById('quizz')
+    quizContainer.innerHTML = ''
+    
+    const finalScoreDiv = document.createElement('div')
+    finalScoreDiv.className = 'final-score'
+    finalScoreDiv.textContent = `Quiz terminé! Vous avez obtenu ${score} bonnes réponses sur ${totalQuestions} questions.`
+    quizContainer.appendChild(finalScoreDiv)
+  
+    const replayButton = document.createElement('button')
+    replayButton.textContent = 'Rejouer'
+    replayButton.addEventListener('click', () => {
+      resetQuiz()
+    })
+    quizContainer.appendChild(replayButton)
+  
+    const quitButton = document.createElement('button')
+    quitButton.textContent = 'Quitter'
+    quitButton.addEventListener('click', () => {
+      window.electron.quitApp()
+    })
+    quizContainer.appendChild(quitButton)
+  }
+  
+  function resetQuiz() {
+    score = 0
+    currentQuestionIndex = 0
+    initializeQuiz()
   }
   

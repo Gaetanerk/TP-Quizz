@@ -2,7 +2,10 @@ const { app, BrowserWindow, ipcMain } = require('electron')
 const path = require('path')
 const fs = require('fs')
 
-function createWindow () {
+let questionsData = []
+let usedQuestionsIndices = new Set()
+
+function createWindow() {
   const mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
@@ -14,21 +17,42 @@ function createWindow () {
   mainWindow.loadFile('index.html')
 
   // Open the DevTools.
-  mainWindow.webContents.openDevTools()
+  // mainWindow.webContents.openDevTools()
 
   fs.readFile('questions.json', 'utf-8', (err, data) => {
     if (err) {
       console.error('Erreur lors de la lecture du fichier JSON:', err)
       return
     }
-    const questions = JSON.parse(data)
-    const randomIndex = Math.floor(Math.random() * questions.questions.length)
-    const question = questions.questions[randomIndex]
+    questionsData = JSON.parse(data).questions
     mainWindow.webContents.on('did-finish-load', () => {
-      mainWindow.webContents.send('question', question)
+      sendNewQuestion(mainWindow)
     })
   })
 }
+
+function sendNewQuestion(window) {
+  if (usedQuestionsIndices.size === questionsData.length) {
+    usedQuestionsIndices.clear()
+  }
+
+  let randomIndex
+  do {
+    randomIndex = Math.floor(Math.random() * questionsData.length)
+  } while (usedQuestionsIndices.has(randomIndex))
+
+  usedQuestionsIndices.add(randomIndex)
+  const question = questionsData[randomIndex]
+  window.webContents.send('new-question', question)
+}
+
+ipcMain.on('request-new-question', (event) => {
+  sendNewQuestion(BrowserWindow.fromWebContents(event.sender))
+})
+
+ipcMain.on('quit-app', () => {
+  app.quit()
+})
 
 app.whenReady().then(() => {
   createWindow()
