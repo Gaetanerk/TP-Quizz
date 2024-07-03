@@ -1,0 +1,27 @@
+#game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quizz {
+    text-align: center;
+}
+
+#remaining-questions, #next-button {
+    margin-top: 20px;
+}
+
+#final-score {
+    font-size: 1.5em;
+    margin-top: 50px;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+#replay-button, #quit-button {
+    margin: 20px 10px;
+}
